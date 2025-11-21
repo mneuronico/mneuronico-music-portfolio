@@ -1,0 +1,380 @@
+﻿[
+    {
+        "title":  "Amor",
+        "tracks":  [
+                       {
+                           "src":  "albums/Amor/Because Of You.mp3",
+                           "title":  "Because Of You"
+                       },
+                       {
+                           "src":  "albums/Amor/En tu calor.mp3",
+                           "title":  "En tu calor"
+                       },
+                       {
+                           "src":  "albums/Amor/No Llores.wav",
+                           "title":  "No Llores"
+                       },
+                       {
+                           "src":  "albums/Amor/Todos necesitamos.mp3",
+                           "title":  "Todos necesitamos"
+                       },
+                       {
+                           "src":  "albums/Amor/Tuyo.mp3",
+                           "title":  "Tuyo"
+                       }
+                   ],
+        "id":  "Amor",
+        "cover":  "albums/Amor/cover.jpg"
+    },
+    {
+        "title":  "Covers",
+        "tracks":  [
+                       {
+                           "src":  "albums/Covers/Always.mp3",
+                           "title":  "Always"
+                       },
+                       {
+                           "src":  "albums/Covers/Feel Good Inc.mp3",
+                           "title":  "Feel Good Inc"
+                       },
+                       {
+                           "src":  "albums/Covers/Hide and Seek.mp3",
+                           "title":  "Hide and Seek"
+                       },
+                       {
+                           "src":  "albums/Covers/Kings of the Underpass.mp3",
+                           "title":  "Kings of the Underpass"
+                       },
+                       {
+                           "src":  "albums/Covers/Love Will Keep Us Together.mp3",
+                           "title":  "Love Will Keep Us Together"
+                       },
+                       {
+                           "src":  "albums/Covers/My Mattress.mp3",
+                           "title":  "My Mattress"
+                       },
+                       {
+                           "src":  "albums/Covers/Oxford Vocal.mp3",
+                           "title":  "Oxford Vocal"
+                       },
+                       {
+                           "src":  "albums/Covers/Pas De Cheval.mp3",
+                           "title":  "Pas De Cheval"
+                       },
+                       {
+                           "src":  "albums/Covers/Radioactive.mp3",
+                           "title":  "Radioactive"
+                       },
+                       {
+                           "src":  "albums/Covers/Superman - Somewhere Only We Know.mp3",
+                           "title":  "Superman - Somewhere Only We Know"
+                       },
+                       {
+                           "src":  "albums/Covers/This is Gospel.mp3",
+                           "title":  "This is Gospel"
+                       },
+                       {
+                           "src":  "albums/Covers/Tifón (Godfather Theme).mp3",
+                           "title":  "Tifón (Godfather Theme)"
+                       }
+                   ],
+        "id":  "Covers",
+        "cover":  "albums/Covers/cover.jpg"
+    },
+    {
+        "title":  "Emociones",
+        "tracks":  [
+                       {
+                           "src":  "albums/Emociones/Al menos una vez.mp3",
+                           "title":  "Al menos una vez"
+                       },
+                       {
+                           "src":  "albums/Emociones/Bien, mal.mp3",
+                           "title":  "Bien, mal"
+                       },
+                       {
+                           "src":  "albums/Emociones/Cambiar las cosas.mp3",
+                           "title":  "Cambiar las cosas"
+                       },
+                       {
+                           "src":  "albums/Emociones/Capas.mp3",
+                           "title":  "Capas"
+                       },
+                       {
+                           "src":  "albums/Emociones/Cristal.mp3",
+                           "title":  "Cristal"
+                       },
+                       {
+                           "src":  "albums/Emociones/Gris.mp3",
+                           "title":  "Gris"
+                       },
+                       {
+                           "src":  "albums/Emociones/Ilusiones.mp3",
+                           "title":  "Ilusiones"
+                       },
+                       {
+                           "src":  "albums/Emociones/Mal humor.mp3",
+                           "title":  "Mal humor"
+                       },
+                       {
+                           "src":  "albums/Emociones/Mi sequía.mp3",
+                           "title":  "Mi sequía"
+                       },
+                       {
+                           "src":  "albums/Emociones/Simple.mp3",
+                           "title":  "Simple"
+                       },
+                       {
+                           "src":  "albums/Emociones/Sintiendo.mp3",
+                           "title":  "Sintiendo"
+                       },
+                       {
+                           "src":  "albums/Emociones/Sólo a mi mismo.mp3",
+                           "title":  "Sólo a mi mismo"
+                       },
+                       {
+                           "src":  "albums/Emociones/Tic-Tac.mp3",
+                           "title":  "Tic-Tac"
+                       }
+                   ],
+        "id":  "Emociones",
+        "cover":  "albums/Emociones/cover.jpg"
+    },
+    {
+        "title":  "Experimental",
+        "tracks":  [
+                       {
+                           "src":  "albums/Experimental/Algún día de Mayo.mp3",
+                           "title":  "Algún día de Mayo"
+                       },
+                       {
+                           "src":  "albums/Experimental/Flasheé una película.WAV",
+                           "title":  "Flasheé una película"
+                       },
+                       {
+                           "src":  "albums/Experimental/Historia de una canción que no estaba destinada a ser cantada.mp3",
+                           "title":  "Historia de una canción que no estaba destinada a ser cantada"
+                       },
+                       {
+                           "src":  "albums/Experimental/I got crazy.mp3",
+                           "title":  "I got crazy"
+                       },
+                       {
+                           "src":  "albums/Experimental/La La La.mp3",
+                           "title":  "La La La"
+                       },
+                       {
+                           "src":  "albums/Experimental/La misma mirada.mp3",
+                           "title":  "La misma mirada"
+                       },
+                       {
+                           "src":  "albums/Experimental/Paranoia.mp3",
+                           "title":  "Paranoia"
+                       },
+                       {
+                           "src":  "albums/Experimental/Sacrificial - The Binding Of Isaac.mp3",
+                           "title":  "Sacrificial - The Binding Of Isaac"
+                       },
+                       {
+                           "src":  "albums/Experimental/Sinfonía del sueño perdido.mp3",
+                           "title":  "Sinfonía del sueño perdido"
+                       },
+                       {
+                           "src":  "albums/Experimental/What the...wav",
+                           "title":  "What the.."
+                       }
+                   ],
+        "id":  "Experimental",
+        "cover":  "albums/Experimental/cover.jpg"
+    },
+    {
+        "title":  "Greatest Hits",
+        "tracks":  [
+                       {
+                           "src":  "albums/Greatest Hits/Calma.mp3",
+                           "title":  "Calma"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Como si fuera lluvia.mp3",
+                           "title":  "Como si fuera lluvia"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Confiar en el amor.mp3",
+                           "title":  "Confiar en el amor"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Espera.mp3",
+                           "title":  "Espera"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/La Titiritera (original).mp3",
+                           "title":  "La Titiritera (original)"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/La Titiritera.mp3",
+                           "title":  "La Titiritera"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Nunca dejes de pelear.mp3",
+                           "title":  "Nunca dejes de pelear"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Palabras.mp3",
+                           "title":  "Palabras"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Rio Arriba.mp3",
+                           "title":  "Rio Arriba"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Se Termina.mp3",
+                           "title":  "Se Termina"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Silencio de la piedra.mp3",
+                           "title":  "Silencio de la piedra"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Tierra de extraños.mp3",
+                           "title":  "Tierra de extraños"
+                       },
+                       {
+                           "src":  "albums/Greatest Hits/Time Only Leaves.mp3",
+                           "title":  "Time Only Leaves"
+                       }
+                   ],
+        "id":  "Greatest Hits",
+        "cover":  "albums/Greatest Hits/cover.jpg"
+    },
+    {
+        "title":  "Lilianas",
+        "tracks":  [
+                       {
+                           "src":  "albums/Lilianas/Lila-Lula.mp3",
+                           "title":  "Lila-Lula"
+                       },
+                       {
+                           "src":  "albums/Lilianas/Lili.mp3",
+                           "title":  "Lili"
+                       },
+                       {
+                           "src":  "albums/Lilianas/Liliana.mp3",
+                           "title":  "Liliana"
+                       },
+                       {
+                           "src":  "albums/Lilianas/Liliuelve.mp3",
+                           "title":  "Liliuelve"
+                       }
+                   ],
+        "id":  "Lilianas",
+        "cover":  "albums/Lilianas/cover.jpg"
+    },
+    {
+        "title":  "Musical",
+        "tracks":  [
+                       {
+                           "src":  "albums/Musical/Cada Guitarra Llora.mp3",
+                           "title":  "Cada Guitarra Llora"
+                       },
+                       {
+                           "src":  "albums/Musical/No llores.mp3",
+                           "title":  "No llores"
+                       },
+                       {
+                           "src":  "albums/Musical/Qué tiene de malo.mp3",
+                           "title":  "Qué tiene de malo"
+                       }
+                   ],
+        "id":  "Musical",
+        "cover":  "albums/Musical/cover.jpg"
+    },
+    {
+        "title":  "Reflexiones",
+        "tracks":  [
+                       {
+                           "src":  "albums/Reflexiones/Ardilla Imperialista (Emperardilla).mp3",
+                           "title":  "Ardilla Imperialista (Emperardilla)"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/Canción a la libertad.mp3",
+                           "title":  "Canción a la libertad"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/Dejados atrás.mp3",
+                           "title":  "Dejados atrás"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/La cena está servida.mp3",
+                           "title":  "La cena está servida"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/La música es de todos.mp3",
+                           "title":  "La música es de todos"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/Lo que no quieren que vos sepas.mp3",
+                           "title":  "Lo que no quieren que vos sepas"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/Matar al enano.mp3",
+                           "title":  "Matar al enano"
+                       },
+                       {
+                           "src":  "albums/Reflexiones/Naturaleza.mp3",
+                           "title":  "Naturaleza"
+                       }
+                   ],
+        "id":  "Reflexiones",
+        "cover":  "albums/Reflexiones/cover.png"
+    },
+    {
+        "title":  "Soledad",
+        "tracks":  [
+                       {
+                           "src":  "albums/Soledad/Intacto.mp3",
+                           "title":  "Intacto"
+                       },
+                       {
+                           "src":  "albums/Soledad/Lágrimas rojas.mp3",
+                           "title":  "Lágrimas rojas"
+                       },
+                       {
+                           "src":  "albums/Soledad/No hay razón para llorar.mp3",
+                           "title":  "No hay razón para llorar"
+                       },
+                       {
+                           "src":  "albums/Soledad/Sin espinas.mp3",
+                           "title":  "Sin espinas"
+                       }
+                   ],
+        "id":  "Soledad",
+        "cover":  "albums/Soledad/cover.png"
+    },
+    {
+        "title":  "The Peace Bomb",
+        "tracks":  [
+                       {
+                           "src":  "albums/The Peace Bomb/Let it be.mp3",
+                           "title":  "Let it be"
+                       },
+                       {
+                           "src":  "albums/The Peace Bomb/Mi entierro.mp3",
+                           "title":  "Mi entierro"
+                       },
+                       {
+                           "src":  "albums/The Peace Bomb/Momentos.mp3",
+                           "title":  "Momentos"
+                       },
+                       {
+                           "src":  "albums/The Peace Bomb/Perfectly you.mp3",
+                           "title":  "Perfectly you"
+                       },
+                       {
+                           "src":  "albums/The Peace Bomb/Soñar.mp3",
+                           "title":  "Soñar"
+                       }
+                   ],
+        "id":  "The Peace Bomb",
+        "cover":  "albums/The Peace Bomb/cover.png"
+    }
+]
