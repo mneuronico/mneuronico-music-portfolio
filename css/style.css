@@ -59,6 +59,7 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .profile-pic {
@@ -95,6 +96,16 @@ h1 {
     transform: translateY(-2px);
 }
 
+.nav-btn.secondary {
+    background: transparent;
+    border-color: var(--glass-border);
+}
+
+.nav-btn.secondary:hover {
+    background: var(--glass-border);
+    color: var(--text-color);
+}
+
 /* Main Content */
 #main-content {
     flex: 1;
@@ -104,6 +115,102 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+}
+
+/* Intro */
+.intro-text {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color);
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.song-count {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* Banner */
+.banner-container {
+    display: none;
+    /* Hidden by default, shown via JS */
+    position: relative;
+    height: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background: #000;
+    border: 1px solid var(--glass-border);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.banner-container.visible {
+    display: flex;
+    align-items: center;
+}
+
+.banner-container:hover {
+    transform: scale(1.01);
+}
+
+.banner-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    transition: opacity 1s;
+}
+
+.banner-cover.fade-in {
+    animation: fadeInCover 1s ease;
+}
+
+@keyframes fadeInCover {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.4;
+    }
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.banner-info {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.banner-hint {
+    font-size: 0.8rem;
+    color: #aaa;
 }
 
 /* Album Grid */
@@ -129,15 +236,35 @@ h1 {
     border-color: var(--accent-color);
 }
 
-.album-cover {
+.cover-container {
+    position: relative;
     width: 100%;
     aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.album-cover {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
 
 .album-card:hover .album-cover {
     transform: scale(1.05);
+}
+
+.badge-recommended {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--accent-color);
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .album-info {
@@ -190,6 +317,12 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+.album-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
 .back-btn {
     background: none;
     border: none;
@@ -214,6 +347,7 @@ h1 {
 .track-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     border-bottom: 1px solid var(--glass-border);
     cursor: pointer;
@@ -230,10 +364,35 @@ h1 {
     color: var(--accent-color);
 }
 
+.track-left {
+    display: flex;
+    align-items: center;
+}
+
 .track-number {
     margin-right: 1rem;
     color: #aaa;
     width: 20px;
+}
+
+.share-track-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+.track-item:hover .share-track-btn {
+    opacity: 1;
+}
+
+.share-track-btn:hover {
+    color: var(--accent-color);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Player Bar */
@@ -410,5 +569,13 @@ input[type="range"]::-webkit-slider-thumb:hover {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .banner-container {
+        height: 150px;
+    }
+
+    .banner-info {
+        font-size: 1.2rem;
     }
 }

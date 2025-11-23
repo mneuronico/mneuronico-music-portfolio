@@ -51,7 +51,7 @@ export class Player {
         });
     }
 
-    playPlaylist(tracks, shuffle = false, startIndex = 0) {
+    playPlaylist(tracks, shuffle = false, startIndex = 0, autoPlay = true) {
         this.playlist = [...tracks];
         if (shuffle) {
             this.shufflePlaylist();
@@ -60,7 +60,12 @@ export class Player {
             this.currentIndex = startIndex;
         }
         this.loadTrack(this.playlist[this.currentIndex]);
-        this.play();
+        if (autoPlay) {
+            this.play();
+        } else {
+            this.isPlaying = false;
+            this.updatePlayButton();
+        }
     }
 
     shufflePlaylist() {
@@ -80,6 +85,9 @@ export class Player {
         // Reset progress
         this.elements.progressBar.value = 0;
         this.elements.currentTime.textContent = "0:00";
+
+        // Update Page Title
+        document.title = `${track.title} - ${track.album.title} - Mneuronico Music Portfolio`;
     }
 
     play() {
@@ -96,6 +104,11 @@ export class Player {
     }
 
     togglePlay() {
+        if (this.playlist.length === 0) {
+            document.getElementById('shuffle-all-btn').click();
+            return;
+        }
+
         if (this.isPlaying) this.pause();
         else this.play();
     }
@@ -106,7 +119,6 @@ export class Player {
             this.loadTrack(this.playlist[this.currentIndex]);
             this.play();
         } else {
-            // Loop to start? Or stop. Let's loop for now.
             this.currentIndex = 0;
             this.loadTrack(this.playlist[this.currentIndex]);
             this.play();
